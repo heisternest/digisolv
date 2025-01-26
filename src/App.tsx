@@ -6,6 +6,7 @@ import { GlobeDemo } from "./components/sections/animated-hero";
 import { ContactPage } from "./components/sections/contact";
 import FooterSection from "./components/sections/footer";
 import { Hero } from "./components/sections/hero";
+import { BentoDemo } from "./components/sections/projects";
 import { AnimatedTestimonialsDemo } from "./components/sections/testimonials";
 
 function App() {
@@ -20,6 +21,10 @@ function App() {
       </div>
       <div className="mt-32 px-0 lg:px-32 md:px-32 ">
         <About />
+      </div>
+
+      <div className="mt-32 px-0 lg:px-32 md:px-32 ">
+        <BentoDemo />
       </div>
 
       <div className="mt-30">
