@@ -13,12 +13,12 @@ function App() {
     <>
       <Navbar />
       <div className="my-44">
-        <div className="container mx-auto flex flex-row w-full justify-between">
+        <div className="container gap-40 my-10 mx-auto flex flex-col md:flex-row w-full justify-between">
           <Hero />
           <GlobeDemo />
         </div>
       </div>
-      <div className="mt- px-32">
+      <div className="mt-32 px-0 lg:px-32 md:px-32 ">
         <About />
       </div>
 
