@@ -1,0 +1,48 @@
+import { AppleCardsCarouselDemo } from "./components/cards";
+import { LogoCarouselDemo } from "./components/logo-carousel";
+import { Navbar } from "./components/navbar";
+import About from "./components/sections/about";
+import { GlobeDemo } from "./components/sections/animated-hero";
+import { ContactPage } from "./components/sections/contact";
+import FooterSection from "./components/sections/footer";
+import { Hero } from "./components/sections/hero";
+import { AnimatedTestimonialsDemo } from "./components/sections/testimonials";
+
+function App() {
+  return (
+    <>
+      <Navbar />
+      <div className="my-44">
+        <div className="container mx-auto flex flex-row w-full justify-between">
+          <Hero />
+          <GlobeDemo />
+        </div>
+      </div>
+      <div className="mt- px-32">
+        <About />
+      </div>
+
+      <div className="mt-30">
+        <AppleCardsCarouselDemo />
+      </div>
+      <div className="mt-5">
+        <LogoCarouselDemo />
+      </div>
+
+      <div className="my-40">
+        <h1 className="text-center text-4xl font-bold text-gray-800">
+          What our customers say
+        </h1>
+        <AnimatedTestimonialsDemo />
+      </div>
+      <div className=" my-10">
+        <ContactPage />
+      </div>
+      <div className="mt-5">
+        <FooterSection />
+      </div>
+    </>
+  );
+}
+
+export default App;
