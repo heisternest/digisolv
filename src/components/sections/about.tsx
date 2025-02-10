@@ -109,8 +109,7 @@ export default function About() {
             UNIFIED IT SOLUTIONS FOR MODERN BUSINESSES
           </p>
           <h2 className="text-3xl md:text-5xl font-semibold tracking-tight">
-            We are Committed to Building Custom Web Solutions that Drive
-            Business
+            We are best in the business
           </h2>
         </div>
 
