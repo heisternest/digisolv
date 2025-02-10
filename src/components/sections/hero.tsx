@@ -110,10 +110,10 @@ export function GridPatternDemo() {
         ]}
         className={cn(
           "[mask-image:radial-gradient(900px_circle_at_center,white,transparent)]",
-          "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12 w-full"
+          "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12 w-full z-0"
         )}
       />
-      <section className="w-full py-12 md:py-24 lg:py-32 flex flex-col items-center">
+      <section className="w-full py-12 md:py-24 lg:py-32 flex flex-col items-center z-1">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-8">
             <Link
@@ -136,12 +136,12 @@ export function GridPatternDemo() {
             <div className="flex flex-col gap-4 min-[400px]:flex-row items-center justify-center">
               <Button
                 size="lg"
-                className="bg-[#3366FF] hover:bg-[#2952CC] text-white"
+                className="bg-primary hover:bg-[#2952CC] text-white"
               >
                 Get Started
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-              <Button variant="link" size="lg" className="text-[#3366FF]">
+              <Button variant="link" size="lg" className="text-primary">
                 Support
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>

@@ -47,3 +47,13 @@
 .animate-spotlight {
   animation: spotlight 2s ease 0.75s 1 forwards;
 }
+
+.text-primary {
+  /* 022e63 */
+  color: #022e63;
+}
+
+.bg-primary {
+  /* 022e63 */
+  background-color: #022e63;
+}

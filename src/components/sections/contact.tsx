@@ -42,7 +42,7 @@ export function ContactPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-sm font-medium text-blue-600 uppercase tracking-wider">
+              <h3 className="text-sm font-medium text-primary uppercase tracking-wider">
                 Australia OFFICE HOURS
               </h3>
               <div className="mt-3">
@@ -52,7 +52,7 @@ export function ContactPage() {
             </div>
 
             <div>
-              <h3 className="text-sm font-medium text-blue-600 uppercase tracking-wider">
+              <h3 className="text-sm font-medium text-primary uppercase tracking-wider">
                 OUR ADDRESS
               </h3>
               <div className="mt-3">
@@ -62,7 +62,7 @@ export function ContactPage() {
             </div>
 
             <div>
-              <h3 className="text-sm font-medium text-blue-600 uppercase tracking-wider">
+              <h3 className="text-sm font-medium text-primary uppercase tracking-wider">
                 GET IN TOUCH
               </h3>
               <div className="mt-3 space-y-1">
@@ -115,7 +115,7 @@ export function ContactPage() {
               </div>
               <Button
                 type="submit"
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white"
+                className="w-full bg-primary hover:bg-blue-700 text-white"
                 disabled={isLoading}
               >
                 {isLoading ? "Sending..." : "Send message"}

@@ -50,7 +50,7 @@ export function Navbar() {
         <div className="flex items-center gap-2">
           <Button
             size="lg"
-            className="bg-[#3366FF] hover:bg-[#2952CC] text-white"
+            className="bg-primary hover:bg-[#2952CC] text-white"
           >
             Contact Us
           </Button>
