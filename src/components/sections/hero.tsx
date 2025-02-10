@@ -110,7 +110,7 @@ export function GridPatternDemo() {
         ]}
         className={cn(
           "[mask-image:radial-gradient(400px_circle_at_center,white,transparent)]",
-          "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12"
+          "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12 w-full"
         )}
       />
       <section className="w-full py-12 md:py-24 lg:py-32 flex flex-col items-center">
@@ -124,7 +124,7 @@ export function GridPatternDemo() {
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
 
-            <h1 className="text-center text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl max-w-3xl mx-auto">
+            <h1 className="text-center text-4xl font-semibold tracking-normal sm:text-5xl md:text-6xl lg:text-7xl max-w-5xl mx-auto ">
               Build powerful live experiences in your product
             </h1>
 

@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Link } from "react-router";
 import { cn } from "../lib/utils";
+import { Button } from "./ui/button";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = React.useState(false);
@@ -16,7 +17,7 @@ export function Navbar() {
   return (
     <header
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white",
+        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white border-b border-gray-200  py-1",
         isScrolled && "bg-white/80 backdrop-blur-md shadow-sm"
       )}
     >
@@ -47,9 +48,12 @@ export function Navbar() {
 
         {/* Auth Buttons */}
         <div className="flex items-center gap-2">
-          <button className="px-6 py-2 bg-black text-white rounded-lg font-bold transform hover:-translate-y-1 transition duration-400">
+          <Button
+            size="lg"
+            className="bg-[#3366FF] hover:bg-[#2952CC] text-white"
+          >
             Contact Us
-          </button>
+          </Button>
         </div>
       </nav>
     </header>
