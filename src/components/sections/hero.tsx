@@ -120,7 +120,7 @@ export function GridPatternDemo() {
               to="#"
               className="inline-flex items-center rounded-full border border-gray-200 bg-white px-4 py-1.5 text-sm text-gray-600 transition-colors hover:bg-gray-100"
             >
-              The Future of Information Technology
+              Secure, Scalable and Cloud Powered
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
 
