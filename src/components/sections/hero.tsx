@@ -124,9 +124,8 @@ export function GridPatternDemo() {
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
 
-            <h1 className="text-center text-4xl font-semibold tracking-normal sm:text-5xl md:text-6xl lg:text-7xl max-w-5xl mx-auto ">
-              Future-Proof IT Solutions <br /> Secure, Scalable, and Built on
-              Trust
+            <h1 className="text-center text-4xl font-semibold tracking-normal sm:text-5xl md:text-4xl lg:text-7xl max-w-5xl mx-auto">
+              Future-Proof IT Solutions <br /> for Your Business
             </h1>
 
             <p className="mx-auto max-w-[700px] text-center text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">

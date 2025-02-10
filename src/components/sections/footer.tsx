@@ -10,22 +10,16 @@ export default function FooterSection() {
           </span>
           <div className="order-first flex flex-wrap justify-center gap-6 text-sm md:order-last">
             <Link to="#" className="text-body block hover:text-title">
-              <span>Features</span>
+              <span>Contact Us</span>
             </Link>
             <Link to="#" className="text-body block hover:text-title">
-              <span>Solution</span>
+              <span>About Us</span>
             </Link>
             <Link to="#" className="text-body block hover:text-title">
-              <span>Customers</span>
+              <span>Testimonials</span>
             </Link>
             <Link to="#" className="text-body block hover:text-title">
-              <span>Pricing</span>
-            </Link>
-            <Link to="#" className="text-body block hover:text-title">
-              <span>Help</span>
-            </Link>
-            <Link to="#" className="text-body block hover:text-title">
-              <span>About</span>
+              <span>Privacy</span>
             </Link>
           </div>
         </div>

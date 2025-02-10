@@ -33,8 +33,10 @@ export function ContactPage() {
               Contact Us
             </h1>
             <p className="text-lg text-muted-foreground">
-              Clarity gives you the blocks & components you need to create a
-              truly professional website.
+              DigiSolv delivers secure, scalable, and reliable IT solutions to
+              optimize your digital infrastructure. Our expertise spans managed
+              IT services, cybersecurity, and cloud solutions, all tailored to
+              meet your unique business objectives.
             </p>
           </div>
 
