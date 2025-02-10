@@ -92,7 +92,7 @@ import { Button } from "../ui/button";
 
 export function GridPatternDemo() {
   return (
-    <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-background ">
+    <div className="relative flex h-screen w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-background ">
       <GridPattern
         squares={[
           [4, 4],
@@ -109,7 +109,7 @@ export function GridPatternDemo() {
           [15, 10],
         ]}
         className={cn(
-          "[mask-image:radial-gradient(400px_circle_at_center,white,transparent)]",
+          "[mask-image:radial-gradient(900px_circle_at_center,white,transparent)]",
           "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12 w-full"
         )}
       />
@@ -120,7 +120,7 @@ export function GridPatternDemo() {
               to="#"
               className="inline-flex items-center rounded-full border border-gray-200 bg-white px-4 py-1.5 text-sm text-gray-600 transition-colors hover:bg-gray-100"
             >
-              The Future of AI in Dyte
+              The Future of Information Technology
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
 
