@@ -124,11 +124,11 @@ export default function About() {
                 <p className="text-muted-foreground">{feature.description}</p>
               </div>
 
-              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg bg-gradient-to-br from-emerald-900 via-slate-900 to-purple-900 p-1">
+              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg p-1">
                 <img
                   src={feature.image || "/placeholder.svg"}
                   alt={feature.title}
-                  className="rounded-lg bg-background h-full object-cover"
+                  className="rounded-lg  h-full object-cover"
                 />
               </div>
 
