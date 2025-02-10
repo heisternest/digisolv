@@ -105,11 +105,9 @@ export default function About() {
     <section className="py-16 px-4 md:py-24">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <p className="text-base md:text-lg mb-3">
-            UNIFIED IT SOLUTIONS FOR MODERN BUSINESSES
-          </p>
+          <p className="text-base md:text-lg mb-3">WE'RE HERE TO HELP YOU</p>
           <h2 className="text-3xl md:text-5xl font-semibold tracking-tight">
-            We are best in the business
+            Get to know us better
           </h2>
         </div>
 

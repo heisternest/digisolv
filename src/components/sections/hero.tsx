@@ -125,13 +125,13 @@ export function GridPatternDemo() {
             </Link>
 
             <h1 className="text-center text-4xl font-semibold tracking-normal sm:text-5xl md:text-6xl lg:text-7xl max-w-5xl mx-auto ">
-              Build powerful live experiences in your product
+              Future-Proof IT Solutions <br /> Secure, Scalable, and Built on
+              Trust
             </h1>
 
             <p className="mx-auto max-w-[700px] text-center text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Create immersive live experiences with everything you need -
-              audio/video conferencing, live streaming, and chat - all packed
-              into a single SDK.
+              Discover our comprehensive IT support, cybersecurity, and cloud
+              solutions tailored for your business needs.
             </p>
 
             <div className="flex flex-col gap-4 min-[400px]:flex-row items-center justify-center">
@@ -139,11 +139,11 @@ export function GridPatternDemo() {
                 size="lg"
                 className="bg-[#3366FF] hover:bg-[#2952CC] text-white"
               >
-                Start building
+                Get Started
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
               <Button variant="link" size="lg" className="text-[#3366FF]">
-                Talk to an expert
+                Support
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </div>
@@ -151,11 +151,11 @@ export function GridPatternDemo() {
             <div className="flex flex-col gap-4 min-[400px]:flex-row items-center justify-center text-sm text-gray-500">
               <div className="flex items-center gap-2">
                 <ArrowUpRight className="h-4 w-4" />
-                <span>99.99% call success rate</span>
+                <span>Next-Gen Technology</span>
               </div>
               <div className="flex items-center gap-2">
                 <Shield className="h-4 w-4" />
-                <span>SOC2 and GDPR compliant</span>
+                <span>Safe & Secure</span>
               </div>
             </div>
           </div>
