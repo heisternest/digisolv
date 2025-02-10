@@ -2,7 +2,6 @@ import { AppleCardsCarouselDemo } from "./components/cards";
 import { LogoCarouselDemo } from "./components/logo-carousel";
 import { Navbar } from "./components/navbar";
 import About from "./components/sections/about";
-import { GlobeDemo } from "./components/sections/animated-hero";
 import { ContactPage } from "./components/sections/contact";
 import FooterSection from "./components/sections/footer";
 import { Hero } from "./components/sections/hero";
@@ -12,13 +11,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="my-44">
-        <div className="container gap-40 my-10 mx-auto flex flex-col md:flex-row w-full justify-between">
-          <Hero />
-          <GlobeDemo />
-        </div>
+      <div className="">
+        <Hero />
       </div>
-      <div className="mt-32 px-0 lg:px-32 md:px-32 ">
+      <div className=" px-0 lg:px-32 md:px-32 ">
         <About />
       </div>
 
