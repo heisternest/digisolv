@@ -7,9 +7,16 @@ export function AppleCardsCarouselDemo() {
 
   return (
     <div className="w-full h-full py-20">
-      <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
-        Our Services
-      </h2>
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center">
+          <p className="text-base md:text-lg mb-3">
+            WE DELIVER THE BEST SOLUTIONS
+          </p>
+          <h2 className="text-3xl md:text-5xl font-semibold tracking-tight">
+            We offer a wide range of services
+          </h2>
+        </div>
+      </div>
       <Carousel items={cards} />
     </div>
   );
