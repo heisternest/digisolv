@@ -41,7 +41,7 @@ const DummyContent = (props: DummyContentProps) => {
 
 const data = [
   {
-    category: "Product",
+    category: "",
     title: "IT Support & HelpDesk",
     src: "https://images.unsplash.com/photo-1629904853716-f0bc54eea481?auto=format&fit=crop&w=1132&h=506",
     content: (
@@ -52,7 +52,7 @@ const data = [
     ),
   },
   {
-    category: "Productivity",
+    category: "",
     title: "Cybersecurity & Threat Management",
     src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1104,h=492,fit=crop/A85wJ341aRiKz1w9/cyber-security-data-protection-business-technology-privacy-concept-cyber-security-data-protection-business-technology-privacy-123053001-dOqyB34wDZtLoB0D.webp",
     content: (
@@ -63,7 +63,7 @@ const data = [
     ),
   },
   {
-    category: "Product",
+    category: "",
     title: "Network Management & Monitoring",
     src: "https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?auto=format&fit=crop&w=1040&h=504",
     content: (
@@ -75,7 +75,7 @@ const data = [
   },
 
   {
-    category: "Product",
+    category: "",
     title: "Cloud Services & Solutions",
     src: "https://images.unsplash.com/photo-1599202860130-f600f4948364?q=80&w=2515&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     content: (
@@ -86,7 +86,7 @@ const data = [
     ),
   },
   {
-    category: "Product",
+    category: "",
     title: "Server & Infrastructure Management",
     src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1104,h=492,fit=crop/A85wJ341aRiKz1w9/14_01edge-cloud-computing-AoPvMz4XD1S0pjk4.jpg",
     content: (
@@ -97,7 +97,7 @@ const data = [
     ),
   },
   {
-    category: "Product",
+    category: "",
     title: "IT Consultancy & Project Management",
     src: "https://images.unsplash.com/photo-1511984804822-e16ba72f5848?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     content: (
@@ -108,7 +108,7 @@ const data = [
     ),
   },
   {
-    category: "Product",
+    category: "",
     title: "Data Backup & Disaster Recovery",
     src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1104,h=492,fit=crop/A85wJ341aRiKz1w9/1_dz64tpg2amels_ldrw_adq-mnlvDzaXzzh82Wan.png",
     content: (
@@ -119,7 +119,7 @@ const data = [
     ),
   },
   {
-    category: "Product",
+    category: "",
     title: "VoIP & Unified Communications",
     src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1104,h=492,fit=crop/A85wJ341aRiKz1w9/business-voip-phone-systems-092b40eb-640w-dWxy7Gz66oFxnWeW.webp",
     content: (

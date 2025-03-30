@@ -134,17 +134,21 @@ export function GridPatternDemo() {
             </p>
 
             <div className="flex flex-col gap-4 min-[400px]:flex-row items-center justify-center">
-              <Button
-                size="lg"
-                className="bg-primary hover:bg-[#2952CC] text-white"
-              >
-                Get Started
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-              <Button variant="link" size="lg" className="text-primary">
-                Support
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+              <Link to="mailto:info@digisolv.au">
+                <Button
+                  size="lg"
+                  className="bg-primary hover:bg-[#2952CC] text-white"
+                >
+                  Get Started
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
+              <Link to={"mailto:support@digisolv.au"}>
+                <Button variant="link" size="lg" className="text-primary">
+                  Support
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
             </div>
 
             <div className="flex flex-col gap-4 min-[400px]:flex-row items-center justify-center text-sm text-gray-500">

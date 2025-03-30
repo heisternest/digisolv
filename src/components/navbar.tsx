@@ -39,9 +39,6 @@ export function Navbar() {
           <Link to="/industries" className="text-lg hover:text-primary">
             Services
           </Link>
-          <Link to="/enterprise" className="text-lg hover:text-primary">
-            Projects
-          </Link>
         </div>
 
         {/* Search Bar */}
