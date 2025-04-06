@@ -45,10 +45,10 @@ export function Navbar() {
 
         {/* Auth Buttons */}
         <div className="flex items-center gap-2">
-          <Link to="/contact">
+          <Link to="/contact" className="cursor-pointer">
             <Button
               size="lg"
-              className="bg-primary hover:bg-[#2952CC] text-white"
+              className="bg-primary hover:bg-[#2952CC] text-white cursor-pointer"
             >
               Contact Us
             </Button>
