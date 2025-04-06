@@ -6,7 +6,9 @@ export default function IndustriesPage() {
   return (
     <div>
       <Navbar />
-      <Services />
+      <div className="mt-20">
+        <Services />
+      </div>
       <div className="mt-5">
         <FooterSection />
       </div>
