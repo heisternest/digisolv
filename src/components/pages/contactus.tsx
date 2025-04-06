@@ -14,13 +14,22 @@ export function ContactPage() {
 
     try {
       // Simulate form submission
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      alert("Message sent successfully!");
       const form = event.target as HTMLFormElement;
+      const name = (form.name as unknown as HTMLInputElement).value;
+      const email = form.email.value;
+      const message = form.message.value;
+      const subject = "Contact Form Submission";
+      const body = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
+
+      // Open the email client with pre-filled data
+      const mailtoLink = `mailto:info@digisolv.au?subject=${encodeURIComponent(
+        subject
+      )}&body=${encodeURIComponent(body)}`;
+      window.location.href = mailtoLink; // This will open the email client
+
       form.reset();
     } catch (error) {
       console.error("Failed to send message", error);
-      alert("Failed to send message. Please try again later.");
     } finally {
       setIsLoading(false);
     }
