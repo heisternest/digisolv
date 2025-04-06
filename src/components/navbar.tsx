@@ -33,7 +33,7 @@ export function Navbar() {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
-          <Link to="/solutions" className="text-lg hover:text-primary">
+          <Link to="/" className="text-lg hover:text-primary">
             Home
           </Link>
           <Link to="/industries" className="text-lg hover:text-primary">
@@ -45,12 +45,14 @@ export function Navbar() {
 
         {/* Auth Buttons */}
         <div className="flex items-center gap-2">
-          <Button
-            size="lg"
-            className="bg-primary hover:bg-[#2952CC] text-white"
-          >
-            Contact Us
-          </Button>
+          <Link to="/contact">
+            <Button
+              size="lg"
+              className="bg-primary hover:bg-[#2952CC] text-white"
+            >
+              Contact Us
+            </Button>
+          </Link>
         </div>
       </nav>
     </header>
